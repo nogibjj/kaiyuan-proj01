@@ -20,7 +20,7 @@ databricks fs ls dbfs:/
 databricks jobs list --output JSON | jq
 ```
 
-## command line 
+## Command line 
 
 ```
 make install
@@ -29,7 +29,7 @@ chmod +x query.py
 ./query.py cli-query --query "SELECT url FROM default.three_stars_michelin_restaurants_csv WHERE region = 'California';" // "" can be replaced
 ```
 
-## launch fast api web app
+## Launch fast api web app
 
 ```
 python fastapi-app.py
